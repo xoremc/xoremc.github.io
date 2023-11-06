@@ -1,11 +1,4 @@
-body {
-    background-color: #BAB1AD;
-}
 
-#card {
-    background-color: #9C8D95;
-    color: #785257;
-}
 
 footer {
     text-align: center;
@@ -33,16 +26,16 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #F2E9E4;
+    background-color: white;
     padding: 20px;
     box-shadow: 0px 0px 10px #4A4E69;
     border-radius: 5px;
     text-align: center;
-    color: #604D53;
+    color: black;
 }
 
 .popup-content a {
-    color: #DB7F8E;
+    color: black;
     font-size: 32px;
     font-family: 'VT323', monospace;
 }
@@ -57,12 +50,9 @@ footer {
 }
 
 .close:hover {
-    color: #DB7F8E;
+    color: #4361EE;
 }
 
-.cart-para ul li {
-    background-color: #DB7F8E;    
-}
 
 /* stylelint-disable stylistic/selector-list-comma-newline-after */
 
@@ -106,4 +96,8 @@ footer {
 
 .img {
     width: 20rem;
+}
+
+#unlock {
+  -webkit-filter: invert(100%);
 }
