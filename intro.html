@@ -324,8 +324,60 @@
                     </tbody>
                 </table>
                 <p>The XNOR gate is a crucial component in digital logic design, known for its applications in creating logical conditions where an action should be taken if two conditions are either both true or both false. It is frequently used in control systems, data comparisons, and error-checking circuits.</p>
-                <hr>
                 <!--  -->
+                <h2 class="display-5 link-body-emphasis mb-1 border-top border-primary">Boolean Algebra</h2>
+                <hr>
+                <p>Boolean algebra is a fundamental branch of mathematics and computer science that deals with binary variables and their operations. It was introduced by George Boole in the mid-19th century and has since become a crucial part of digital logic, computer science, and electrical engineering. Boolean algebra provides a way to manipulate and simplify logical expressions, making it an essential tool for designing digital circuits, programming, and solving various problems in decision-making and information processing.</p>
+
+                    <p>At its core, Boolean algebra is concerned with two binary values: true and false, typically represented as 1 and 0, respectively. These binary values are the building blocks of Boolean expressions, which are used to represent and evaluate logical statements. In Boolean algebra, there are three fundamental operations: NOT, AND, and OR.</p>
+                <h2 class="display-7 link-body-emphasis mb-4">NOT Operation</h4>
+                <p>The NOT operation, denoted by the symbol "¬" or sometimes "~," is a unary operation that negates the input value. In other words, it changes a true value (1) to false (0) and vice versa. The Boolean expression for the NOT operation is:
+                    ¬A or ~A (read as "not A")</p>
+                    
+                 <h2 class="display-7 link-body-emphasis mb-4">AND Operation</h4>
+                 <p>The AND operation, denoted by the symbol "∧," is a binary operation that returns true (1) only if both of its input values are true. The Boolean expression for the AND operation is:
+                    A ∧ B (read as "A and B")</p>
+                    <h2 class="display-7 link-body-emphasis mb-4">OR Operation</h4>
+                    <p>The OR operation, denoted by the symbol "∨," is a binary operation that returns true (1) if at least one of its input values is true. The Boolean expression for the OR operation is:
+                        A ∨ B (read as "A or B")</p>
+                 <h2 class="display-7 link-body-emphasis mb-4">XOR Operation</h4>
+                 <p>The XOR (exclusive OR) operation, denoted by the symbol "⊕," is a binary operation that returns true (1) if the number of true inputs is odd. In other words, it's true when the inputs are different. The Boolean expression for the XOR operation is:
+                    A ⊕ B (read as "A exclusive OR B")</p>
+                <h2 class="display-7 link-body-emphasis mb-4">NAND Operation</h4>
+                <p>The NAND (NOT AND) operation is the negation of the AND operation. It is a binary operation that returns false (0) only when both input values are true. The Boolean expression for the NAND operation is:
+                    A NAND B (read as "A NAND B")</p>
+                <h2 class="display-7 link-body-emphasis mb-4">NOR Operation</h4>
+                <p>The NOR (NOT OR) operation is the negation of the OR operation. It is a binary operation that returns false (0) only when both input values are false. The Boolean expression for the NOR operation is:
+                    A NOR B (read as "A NOR B")</p>
+                <h2 class="display-7 link-body-emphasis mb-4">De Morgan's Laws</h4>
+                <p>De Morgan's Laws are important principles in Boolean algebra that describe how NOT, AND, and OR operations interact with each other. They are helpful for simplifying complex Boolean expressions.</p>
+                <p>De Morgan's First Law:</p>
+                <p>¬(A ∧ B) = ¬A ∨ ¬B
+                    ¬(A ∨ B) = ¬A ∧ ¬B</p>
+                <p>De Morgan's Second Law</p>
+                <p>A ∧ (B ∨ C) = (A ∧ B) ∨ (A ∧ C)
+                    A ∨ (B ∧ C) = (A ∨ B) ∧ (A ∨ C)</p>
+                <h2 class="display-5 link-body-emphasis mb-1 border-top border-primary">Combinational Logic vs. Sequential Logic</h2>
+                <hr>
+                <p>Combinational logic and sequential logic are two fundamental building blocks in digital circuit design and play distinct roles in the world of digital electronics.</p>
+                <hr>
+                <h2 class="display-7 link-body-emphasis mb-4">Combinational Logic</h4>
+                <p>Combinational logic is a type of digital logic that processes inputs and produces outputs based solely on the current input values, without any consideration of past inputs or internal state. In other words, it performs logical and arithmetic operations where the output depends only on the present input values. Combinational circuits are designed to perform specific tasks without memory or feedback.</p>
+                <p>Key characteristics of combinational logic:</p>
+                <p><ul>Output depends only on current inputs.</ul><ul>No internal state or memory elements like flip-flops.</ul><ul>Each input combination produces a unique output.</ul><ul>Examples of combinational circuits include multiplexers, demultiplexers, adders, subtractors, and logic gates (AND, OR, NOT, XOR, etc.).</ul></p>
+                <p>Combinational logic is commonly used in various applications, including data manipulation, arithmetic operations, and basic decision-making processes. It's essential for performing calculations and making immediate decisions based on current inputs.</p>
+                <hr>
+                <h2 class="display-7 link-body-emphasis mb-4">Sequential Logic</h4>
+                <p>Sequential logic, on the other hand, is a type of digital logic that has memory elements, such as flip-flops, which store information about past inputs and outputs. The output in a sequential circuit is influenced not only by the current inputs but also by the previous state of the circuit, making it capable of maintaining internal memory or "state."</p>
+                <p>Key characteristics of sequential logic:</p>
+                <p><ul>Output depends on both current inputs and the previous state.</ul><ul>It has memory elements (flip-flops) to store information.</ul><ul>Output can change over time based on a clock signal.</ul><ul>Examples of sequential circuits include flip-flops, registers, counters, and finite state machines (FSMs).</ul></p>
+                <p>Sequential logic is critical for tasks that involve data storage, timing, and controlling the flow of information. It is extensively used in applications like microprocessors, memory units, and various digital systems where decisions need to be made over time or where specific sequences of operations are required.</p>
+                <hr>
+                <p>In summary, the main difference between combinational and sequential logic is the presence of memory or state.</p>
+                <p>Combinational logic processes inputs and produces outputs based solely on the current input values, while sequential logic uses memory elements to maintain past states and consider both current inputs and previous states to determine the output. </p>
+                <p>The choice between using combinational or sequential logic depends on the specific requirements of a digital system and the nature of the problem being solved.</p>
+                <hr>
+                <h1 class="pb-4 mb-4 fst-italic border-bottom border-primary text-primary">END</h1>
             </article>
         </main>
 
